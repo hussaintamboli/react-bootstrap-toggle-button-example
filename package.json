@@ -1,0 +1,46 @@
+{
+  "name": "react-bootstrap-toggle-button-example",
+  "version": "1.0.0",
+  "description": "Bootstrap's toggle button group not calling onChange event in react",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --config ./webpack.dev.config.js && webpack-dev-server --config ./webpack.dev.config.js --content-base ./public --open --inline --hot --history-api-fallback && cp src/index.html public/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hussaintamboli/react-bootstrap-toggle-button-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hussaintamboli/react-bootstrap-toggle-button-example/issues"
+  },
+  "homepage": "https://github.com/hussaintamboli/react-bootstrap-toggle-button-example#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "cross-env": "^5.2.0",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5",
+    "webpack-hot-middleware": "^2.22.3"
+  }
+}
