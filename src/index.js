@@ -9,7 +9,7 @@ class Hello extends React.Component {
     this.handlePlatformChange = this.handlePlatformChange.bind(this);
   }
 
-  handlePlatformChange() {
+  handlePlatformChange(event) {
     console.log(event.target.value);
   }
   
